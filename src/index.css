@@ -24,6 +24,9 @@ h1 {
   font-family: 'Love Ya Like A Sister';
   text-decoration: underline;
 }
+h4 {
+  
+}
 
 .fb {
   color: white;
@@ -34,4 +37,17 @@ i {
   padding: .5%;
   margin-top: 1%;
   margin-bottom: 1%;
+}
+img {
+  height: 50vh;
+  margin-top: 2%;
+  margin-left: 2%;
+}
+.description {
+  margin: 1%;
+  font-size: 1.4rem;
+  text-align: left;
+}
+a {
+  color: rgb(161, 106, 213);
 }
