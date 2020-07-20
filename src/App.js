@@ -6,16 +6,18 @@ import Skills from './components/Skills'
 import Projects from './components/Projects'
 
 const Title = styled.h1 `
+  margin: 5%;
   color: white;
   font-family: 'Love Ya Like A Sister';
-  font-size: 2rem;
+  font-size: 2.5rem;
+  text-shadow: 1px 1px 2px black, 0 0 25px #00ffff, 0 0 8px #8533ff;
 `
 const SubTitle = styled.h3 `
   color: white;
   font-family: 'Love Ya Like A Sister';
-  margin: 7%;
-  font-size: 1.5rem;
-  
+  margin: 2%;
+  font-size: 1.6rem;
+  text-shadow: 1px 1px 2px black, 0 0 25px #00ffff, 0 0 8px #8533ff;
 `
 
 const Icons = styled.div `
@@ -27,22 +29,28 @@ const Icons = styled.div `
 
 function App() {
   return (
+    <>
     <div className="App">
       <Title>Michael Stevens</Title>
-      <SubTitle>Full stack engineer | Lover of tech |</SubTitle>
-      <Icons>
+      <SubTitle>Full stack engineer | Lover of tech | Lifetime Learner<br/>
+      
+        Living in the Portland, Tn area<br/>
+        Email: Stevensmike36@yahoo.com
+        </SubTitle>
+      {/* <Icons> */}
       {/* <i class="fab fa-facebook-square fa-3x" ></i> */}
       {/* <i class="fab fa-twitter-square fa-3x" ></i> */}
-      <i class="fas fa-envelope-square fa-3x"></i>
-      </Icons>
+      {/* <i class="fas fa-envelope-square fa-3x"></i> */}
+      {/* </Icons> */}
     
     <AboutMe/>
     <h1>Skills</h1>
     <Skills/>
-
+    <h1>Projects</h1>
     <Projects />
     
   </div>
+  </>
   );
 }
 
