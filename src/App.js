@@ -32,10 +32,13 @@ function App() {
     <>
     <div className="App">
       <Title>Michael Stevens</Title>
-      <SubTitle>Full stack engineer | Lover of tech | Lifetime Learner<br/>
-      
-        Living in the Portland, Tn area<br/>
-        Email: Stevensmike36@yahoo.com
+      <SubTitle>Full Stack Engineer | Lover of tech | Lifetime Learner<br/>    
+        <br/>
+        Living in the Nashville, Tennessee area<br/>
+        <br/>
+        Email: Stevensmike36@yahoo.com<br/>
+        <i class="fab fa-github-square fa-3x" ></i>Github: <a href = "https://github.com/mzstevens69">My Github</a><br/>
+        <i class="fab fa-twitter-square fa-3x" ></i>Twitter: <a href = "https://twitter.com/Michaelzanemike">My Twitter</a>
         </SubTitle>
       {/* <Icons> */}
       {/* <i class="fab fa-facebook-square fa-3x" ></i> */}

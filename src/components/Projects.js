@@ -6,6 +6,7 @@ const Wrap = styled.div `
     justify-content: center;
     height: 100%;
     margin-top: 2%;
+    margin-bottom: 2%;
    
 `
 
@@ -47,19 +48,8 @@ const Projects = () => {
                 blank grid then observing it's evolution of generations.  
                 It is an example of Turing complete thus allowing to 
                 simulate a universal constructor and any Turing machine.<br/>
-            It follows these simple rules at each step:<br/>
-            <br/>
-            1. Any live cell with two or three live neighbours survives.<br/>
-            2. Any dead cell with three live neighbours becomes a live cell.<br/>
-            3. All other live cells die in the next generation. Similarly, 
-               all other dead cells stay dead.
-               <br/>
-               <br/>
-               These rules apply simultaneously to all cells, causing birth 
-               and death and this occurs during a generation. The preceding 
-               generation is derived from the previous as the rules continue 
-               to be applied repeatedly for each generation.
-               <br/>
+                - I built it using JavaScript, CSS, and HTML<br/>
+                <br/>
                <a
                href = "https://game-of-life-m.herokuapp.com">See deployed app
                </a>
@@ -73,6 +63,8 @@ const Projects = () => {
 
             <div className = "description" >
                 <h4>Rick and Morty Page</h4>
+                This app was made with React and JavaScript.  I had fun using the 
+                Rick and Morty API.  
                 
                {/* <a
                href = "https://game-of-life-m.herokuapp.com">See deployed app
@@ -87,6 +79,11 @@ const Projects = () => {
 
             <div className = "description" >
                 <h4>Geoseek</h4>
+                Geoseek was a 8 week project that I worked on with a group of 3 IOS developers,
+                and a team of 5 web developers.  We worked closely with a stakeholder, 
+                having weekly meetings and talking through her expectations for the app.abs
+                We used ReactJs for the client side of the app and used NodeJS for the 
+                backend server.  The app was a way to provide a pure digital Geocache experience.
                 
                {/* <a
                href = "https://game-of-life-m.herokuapp.com">See deployed app
