@@ -19,7 +19,7 @@ const Pject = styled.div `
     color: white;
     background-color:  #00004d;
     box-shadow: 4px 4px 8px 4px rgb(0, 255, 255), 4px 6px 20px 4px rgba(0, 0, 0, 0.19);
-        @media (max-width: 1110px) {
+        @media (max-width: 1300px) {
             flex-direction: column;
         }
 `
@@ -32,7 +32,7 @@ const Pject2 = styled.div `
     color: white;
     background-color:  #00004d;
     box-shadow: 4px 4px 8px 4px rgb(0, 255, 255), 4px 6px 20px 4px rgba(0, 0, 0, 0.19);
-        @media (max-width: 1110px) {
+        @media (max-width: 1300px) {
             flex-direction: column;
             margin: 2%;
         }

@@ -49,7 +49,7 @@ i {
 img {
   height: 50vh;
   margin: 2%;
-    @media screen and (max-width: 1110px) {
+    @media screen and (max-width: 1300px) {
       width: 650px;
     }
  
