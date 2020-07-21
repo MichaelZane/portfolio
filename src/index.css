@@ -43,11 +43,18 @@ i {
 .fab.fa-github-square.fa-3x {
   margin-right: 1%;
 }
+.fa.fa-envelope.fa-3x {
+  margin-right: 1%;
+}
 img {
   height: 50vh;
   margin: 2%;
  
 }
+span {
+  font-size: medium;
+}
+
 .description {
   font-family: 'Love Ya Like A Sister';
   margin: 1%;
@@ -55,5 +62,5 @@ img {
   text-align: left;
 }
 a {
-  color: rgb(161, 106, 213);
+  color: whitesmoke;
 }

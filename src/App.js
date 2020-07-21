@@ -4,6 +4,7 @@ import './App.css';
 import AboutMe from './components/AboutMe'
 import Skills from './components/Skills'
 import Projects from './components/Projects'
+import Footer from './components/Footer';
 
 const Title = styled.h1 `
   margin: 5%;
@@ -36,9 +37,10 @@ function App() {
         <br/>
         Living in the Nashville, Tennessee area<br/>
         <br/>
-        Email: Stevensmike36@yahoo.com<br/>
-        <i class="fab fa-github-square fa-3x" ></i>Github: <a href = "https://github.com/mzstevens69">My Github</a><br/>
-        <i class="fab fa-twitter-square fa-3x" ></i>Twitter: <a href = "https://twitter.com/Michaelzanemike">My Twitter</a>
+        <a href = "stevensmike36@yahoo.com"><i class="fa fa-envelope fa-3x" aria-hidden="true"></i></a>
+        <a href = "https://www.linkedin.com/in/michael-stevens-dev/"><i class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i></a>
+        <a href = "https://github.com/mzstevens69"><i class="fab fa-github-square fa-3x" ></i></a>
+        <a href = "https://twitter.com/Michaelzanemike"><i class="fab fa-twitter-square fa-3x" ></i></a>
         </SubTitle>
       {/* <Icons> */}
       {/* <i class="fab fa-facebook-square fa-3x" ></i> */}
@@ -51,7 +53,7 @@ function App() {
     <Skills/>
     <h1>Projects</h1>
     <Projects />
-    
+    <Footer />
   </div>
   </>
   );
