@@ -7,7 +7,7 @@ const Wrap = styled.div `
     height: 100%;
     margin-top: 2%;
     margin-bottom: 2%;
-   
+    
 `
 
 const Pject = styled.div `
@@ -19,6 +19,9 @@ const Pject = styled.div `
     color: white;
     background-color:  #00004d;
     box-shadow: 4px 4px 8px 4px rgb(0, 255, 255), 4px 6px 20px 4px rgba(0, 0, 0, 0.19);
+        @media (max-width: 1110px) {
+            flex-direction: column;
+        }
 `
 const Pject2 = styled.div `
     border: 1px solid white;
@@ -29,6 +32,10 @@ const Pject2 = styled.div `
     color: white;
     background-color:  #00004d;
     box-shadow: 4px 4px 8px 4px rgb(0, 255, 255), 4px 6px 20px 4px rgba(0, 0, 0, 0.19);
+        @media (max-width: 1110px) {
+            flex-direction: column;
+            margin: 2%;
+        }
 `
 
 const Projects = () => {
@@ -48,7 +55,7 @@ const Projects = () => {
                 blank grid then observing it's evolution of generations.  
                 It is an example of Turing complete thus allowing to 
                 simulate a universal constructor and any Turing machine.<br/>
-                - I built it using JavaScript, CSS, and HTML<br/>
+                It was created using JavaScript, CSS, and HTML<br/>
                 <br/>
                <a
                href = "https://game-of-life-m.herokuapp.com">See deployed app
