@@ -24,6 +24,10 @@ h1 {
   font-family: 'Love Ya Like A Sister';
   text-decoration: underline;
   text-shadow: 1px 1px 2px black, 0 0 25px #00ffff, 0 0 8px #8533ff;
+  @media screen and (max-width: 700px) {
+    text-align: center;
+  }
+
 }
 h4 {
   text-decoration: underline;
@@ -46,14 +50,7 @@ i {
 .fa.fa-envelope.fa-3x {
   margin-right: 1%;
 }
-img {
-  height: 50vh;
-  margin: 2%;
-    @media screen and (max-width: 1300px) {
-      width: 650px;
-    }
- 
-}
+
 span {
   font-size: medium;
 }

@@ -7,7 +7,17 @@ const Wrap = styled.div `
     height: 100%;
     margin-top: 2%;
     margin-bottom: 2%;
+        
     
+`
+const Image = styled.img `
+    margin: 3%;
+    @media screen and (max-width: 700px) {    
+        height: 100%;
+        width: 93%;
+        
+      }
+
 `
 
 const Pject = styled.div `
@@ -15,27 +25,22 @@ const Pject = styled.div `
     display: flex;
     margin-top: 5%;
     width: 80%;
-    height: 70%;
+    height: 100%;
     color: white;
     background-color:  #00004d;
     box-shadow: 4px 4px 8px 4px rgb(0, 255, 255), 4px 6px 20px 4px rgba(0, 0, 0, 0.19);
-        @media (max-width: 1300px) {
-            flex-direction: column;
-        }
+    flex-direction: column;
 `
 const Pject2 = styled.div `
     border: 1px solid white;
     display: flex;
     margin-top: 0;
     width: 80%;
-    height: 70%;
+    height: 100%;
     color: white;
     background-color:  #00004d;
     box-shadow: 4px 4px 8px 4px rgb(0, 255, 255), 4px 6px 20px 4px rgba(0, 0, 0, 0.19);
-        @media (max-width: 1300px) {
-            flex-direction: column;
-            margin: 2%;
-        }
+    flex-direction: column;
 `
 
 const Projects = () => {
@@ -44,7 +49,7 @@ const Projects = () => {
         
         <Wrap>
             <Pject>
-                <img src="/pro1a.gif" alt="project game of life" />
+                <Image src="/pro1a.gif" alt="project game of life" />
                 
                 <div className = "description" >
                 <h4>Game of Life</h4>
@@ -66,7 +71,7 @@ const Projects = () => {
         
         <Wrap>
             <Pject2>
-            <img src="/RickMorty1.gif" alt="project Rick and Morty Api" />
+            <Image className="image2" src="/RickMorty1.gif" alt="project Rick and Morty Api" />
 
             <div className = "description" >
                 <h4>Rick and Morty Page</h4>
@@ -82,7 +87,7 @@ const Projects = () => {
 
         <Wrap>
             <Pject2>
-            <img src="/Geoseek.gif" alt="" />
+            <Image className="image3" src="/Geoseek.gif" alt="" />
 
             <div className = "description" >
                 <h4>Geoseek</h4>
