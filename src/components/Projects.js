@@ -14,8 +14,11 @@ const Image = styled.img `
     margin: 3%;
     @media screen and (max-width: 700px) {    
         height: 100%;
-        width: 93%;
-        
+        width: 94%;   
+      }
+      @media screen and (max-width: 1300px) {    
+        height: 100%;
+        width: 94%;   
       }
 
 `
@@ -41,6 +44,7 @@ const Pject2 = styled.div `
     background-color:  #00004d;
     box-shadow: 4px 4px 8px 4px rgb(0, 255, 255), 4px 6px 20px 4px rgba(0, 0, 0, 0.19);
     flex-direction: column;
+    
 `
 
 const Projects = () => {
