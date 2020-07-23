@@ -80,7 +80,8 @@ const Projects = () => {
             <div className = "description" >
                 <h4>Rick and Morty Page</h4>
                 This app was made with React and JavaScript.  I had fun using the 
-                Rick and Morty API.  
+                Rick and Morty API.  The best part of programming your own projects is that 
+                you get to make what you want, so I got to play with the rick and morty api.  
                 
                {/* <a
                href = "https://game-of-life-m.herokuapp.com">See deployed app
