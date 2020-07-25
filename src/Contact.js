@@ -37,13 +37,13 @@ const contactMe = () => {
             method="POST"
             >
             <label>
-                <input className = "nme" type="text" placeholder="Name" />
+                <input className="nme" name="name" type="text" placeholder="Name" />
             </label>
             <label>
                 <input type="text" name="_replyto" placeholder="Email"/>
             </label>
             <label>
-                <input type="numeric" placeholder="Phone"/>
+                <input type="numeric" placeholder="Phone" name="phone"/>
             </label>
             <label>
                 <textarea name="message" placeholder="Message" />         
@@ -51,6 +51,7 @@ const contactMe = () => {
           <label>
           <button className = "btn" type="submit">Send</button>
           </label>
+          
         </Form>
       </Wrap>
      );
