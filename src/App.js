@@ -5,6 +5,7 @@ import AboutMe from './components/AboutMe'
 import Skills from './components/Skills'
 import Projects from './components/Projects'
 import Footer from './components/Footer';
+import Contact from './Contact';
 
 const Title = styled.h1 `
   margin: 5%;
@@ -40,12 +41,15 @@ function App() {
       </SubTitle>
       
       
-      <AboutMe/>
+      <AboutMe />
       <h1>Skills</h1>
-      <Skills/>
+      <Skills />
       <h1>Projects</h1>
       <Projects />
+      <h1>Contact Me</h1>
+      <Contact />
       <Footer />
+      
     </div>
     </>
   );

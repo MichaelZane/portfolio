@@ -6,9 +6,7 @@ const Wrap = styled.div `
     justify-content: center;
     height: 100%;
     margin-top: 2%;
-    margin-bottom: 2%;
-        
-    
+    margin-bottom: 2%;         
 `
 const Image = styled.img `
     margin: 3%;
