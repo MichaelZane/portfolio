@@ -96,7 +96,8 @@ const Projects = () => {
                 <h4>Geoseek</h4>
                 Geoseek was a 8 week project that I worked on with a group of 3 IOS developers,
                 and a team of 5 web developers.  We worked closely with a stakeholder, 
-                having weekly meetings and talking through her expectations for the app.abs
+                having weekly meetings and talking through her expectations for the app.  Our team 
+                then came up with a strategy to meet the stakeholder's expectations. 
                 We used ReactJs for the client side of the app and used NodeJS for the 
                 backend server.  The app was a way to provide a pure digital Geocache experience.
                 
