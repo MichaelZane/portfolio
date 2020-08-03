@@ -45,6 +45,7 @@ function App() {
         stevensmike36@yahoo.com
         <br/>
         <br/>
+        <a href="mailto:stevensmike36@yahoo.com" alt="mail link"><i className="icon far fa-envelope fa-3x"></i></a>
         <a href = "https://www.linkedin.com/in/michael-stevens-dev/" alt="linked in icon"><i class="fa fa-linkedin-square fa-3x"></i></a>
         <a href = "https://github.com/mzstevens69" alt="github icon"><i class="fab fa-github-square fa-3x" ></i></a>
         <a href = "https://twitter.com/Michaelzanemike" alt="twitter icon"><i class="fab fa-twitter-square fa-3x" ></i></a>
