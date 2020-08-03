@@ -35,7 +35,7 @@ function App() {
       <div className="btn-wrap" >
       <a class="button" href="#project">Projects</a>
       <a class="button" href="#skill">Skills</a>
-      <a class="button" href="#contact">Contact Me</a>
+      <a class="button" href="#contact">Contact</a>
       </div>
       <Title>Michael Stevens</Title>
       <SubTitle>Full Stack Engineer | Lover of tech | Lifetime Learner<br/>    
