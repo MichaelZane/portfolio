@@ -40,7 +40,7 @@ const AboutMe = () => {
                 much of my life. It's what I love to do.  
                 My current skills are:
                 JavaScript, React, Nodejs, Express, Knex, PostgreSQL, Python, HTML5, 
-                CSS3, Sass, Styled Components, Jest   
+                CSS3, Sass, Styled Components, Jest.   
                 </p>
             </About>
             </Wrap>

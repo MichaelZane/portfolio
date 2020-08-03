@@ -49,15 +49,9 @@ a {
 
 i {
   
-  padding: .5%;
+  padding: 1%;
   margin-top: 1%;
   margin-bottom: 1%;
-}
-.fab.fa-github-square.fa-3x {
-  margin-right: 1%;
-}
-.fa.fa-envelope.fa-3x {
-  margin-right: 1%;
 }
 
 span {
