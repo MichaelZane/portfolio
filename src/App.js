@@ -7,6 +7,7 @@ import Projects from './components/Projects'
 import Footer from './components/Footer';
 import Contact from './Contact';
 
+
 const Title = styled.h1 `
   margin: 5%;
   color: white;
@@ -23,9 +24,19 @@ const SubTitle = styled.h3 `
 `
 
 function App() {
+
+  
+
+  
+
   return (
     <>
     <div className="App">
+      <div className="btn-wrap" >
+      <a class="button" href="#project">Projects</a>
+      <a class="button" href="#skill">Skills</a>
+      <a class="button" href="#contact">Contact Me</a>
+      </div>
       <Title>Michael Stevens</Title>
       <SubTitle>Full Stack Engineer | Lover of tech | Lifetime Learner<br/>    
         <br/>
@@ -41,12 +52,12 @@ function App() {
       
       
       <AboutMe />
-      <h1>Skills</h1>
+      <h1 id="skill" >Skills</h1>
       <Skills />
-      <h1>Projects</h1>
-      <Projects />
-      <h1>Contact Me</h1>
-      <Contact />
+      <h1 id="project" >Projects</h1>
+      <Projects  />
+      <h1 id="contact" >Contact Me</h1>
+      <Contact  />
       <Footer />
       
     </div>

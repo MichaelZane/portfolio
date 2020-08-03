@@ -37,6 +37,11 @@ p {
   padding: 1%;
 }
 
+a {
+  width: 25%;
+  text-align: center;
+}
+
 .fb {
   color: white;
 
@@ -68,7 +73,9 @@ span {
 }
 
 a {
+  margin-top: 4%;
   color: whitesmoke;
+  text-decoration: none;
 }
 
 input {
@@ -87,17 +94,31 @@ textarea {
   border-radius: 7px;
   margin: 2%;
   width: 80%;
-  font-size: x-large;
+  font-size: 24px;
+}
+
+.link {
+  color: white;
+  width: 25%;
+  background-color: transparent;
+  cursor: pointer;
 }
 
 .btn {
-  height: 35px;
+  height: 55px;
   border-radius: 7px;
   margin: 2%;
   width: 25%;
   font-size: x-large;
   color: whitesmoke;
   background-color: darkgreen;
+}
+
+.btn-wrap {
+  display: flex;
+  justify-content: center;
+  font-size: 1.7rem;
+
 }
 
 ::placeholder {
