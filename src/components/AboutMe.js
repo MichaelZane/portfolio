@@ -30,17 +30,27 @@ const AboutMe = () => {
             <About>
             
                 <p>
-                I've been a fan of tech since an early age . I love computers 
-                and what you can achieve by using them.  The tech world is moving fast
-                and can be a challenge to keep up.  I have adapted by remaining in a constant
-                learning environment. 
-                I am on a journey of enlightenment for web developing. You gotta 
-                love what you do and my passion for 
-                web development is strong. I have been a problem solver for 
-                much of my life. It's what I love to do.  
+                I've been a fan of tech from an early age. I love 
+                computers and what you can achieve by using them. 
+                The tech world is moving fast and can be a challenge 
+                to keep up. I am adapting by remaining in a constant 
+                learning environment. It is truly rewarding, learning 
+                different ways to solve problems that web developers 
+                face in their daily work lives. I am on a journey of 
+                enlightenment and I love what I'm doing. My passion 
+                for web development is strong. My background experiences 
+                intertwine with how new technologies are developing. 
+                Art and Business development are what's feeding many 
+                technological advancements, from Web Development to 
+                Augmented realities the core fundamentals are helping 
+                to push it forward into the future.
                 My current skills are:
-                JavaScript, React, Nodejs, Express, Knex, PostgreSQL, Python, HTML5, 
-                CSS3, Sass, Styled Components, Jest.   
+                    JavaScript, React, Nodejs, Express, Knex, 
+                    PostgreSQL, Python, HTML5, CSS3, Sass, 
+                    Styled Components, Jest.
+                I am also learning React Native in my free time. 
+                I am fascinated with Augmented reality and how it 
+                will be used in web development.   
                 </p>
             </About>
             </Wrap>
