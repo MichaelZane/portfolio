@@ -51,7 +51,7 @@ const Projects = () => {
         
         <Wrap>
             <Pject>
-                <Image src="/pro1a.gif" alt="project game of life" />
+                <Image loading='lazy' src="/pro1a.gif" alt="project game of life" />
                 
                 <div className = "description" >
                 <h4>Game of Life</h4>
@@ -73,7 +73,7 @@ const Projects = () => {
         
         <Wrap>
             <Pject2>
-            <Image className="image2" src="/RickMorty1.gif" alt="project Rick and Morty Api" />
+            <Image loading='lazy' className="image2" src="/RickMorty1.gif" alt="project Rick and Morty Api" />
 
             <div className = "description" >
                 <h4>Rick and Morty Page</h4>
@@ -90,7 +90,7 @@ const Projects = () => {
 
         <Wrap>
             <Pject2>
-            <Image className="image3" src="/Geoseek.gif" alt="" />
+            <Image loading='lazy' className="image3" src="/Geoseek.gif" alt="" />
 
             <div className = "description" >
                 <h4>Geoseek</h4>
