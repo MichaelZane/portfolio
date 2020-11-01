@@ -32,6 +32,7 @@ const Skills = () => {
                 <i class="fab fa-css3-alt fa-7x"></i>
                 <i class="fab fa-node-js fa-7x"></i>
                 <i class="fab fa-git fa-7x"></i>
+                <i class="fab fa-github"></i>
                 <i class="fas fa-database fa-7x"></i>
             </Skill>
         </Wrap>
