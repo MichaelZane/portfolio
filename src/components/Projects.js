@@ -48,6 +48,20 @@ const Pject2 = styled.div `
 const Projects = () => {
     return ( 
         <>
+        <Wrap>
+            <Pject2>
+            <Image loading='lazy' className="image2" src="/menu-app.gif" alt="project Rick and Morty Api" />
+
+            <div className = "description" >
+                <h4>Menu Order App</h4>
+                A react-redux app that uses firebase functions and is hosted there as well. It allows users to sign up with firebase Auth and then sign In. You can order from the menu and then checkout using stripe. 
+                <br/>
+               <a
+               href = "https://commerce-app-ec693.firebaseapp.com/">See deployed app
+               </a>
+                </div>
+            </Pject2>
+        </Wrap>
         
         <Wrap>
             <Pject>
@@ -70,24 +84,6 @@ const Projects = () => {
                 </div>
             </Pject>
         </Wrap>
-        
-        <Wrap>
-            <Pject2>
-            <Image loading='lazy' className="image2" src="/RickMorty1.gif" alt="project Rick and Morty Api" />
-
-            <div className = "description" >
-                <h4>Rick and Morty Page</h4>
-                This app was made with React and JavaScript.  I had fun using the 
-                Rick and Morty API.  The best part of programming your own projects is that 
-                you get to make what you want, so I got to play with the rick and morty api.  
-                
-               {/* <a
-               href = "https://game-of-life-m.herokuapp.com">See deployed app
-               </a> */}
-                </div>
-            </Pject2>
-        </Wrap>
-
         <Wrap>
             <Pject2>
             <Image loading='lazy' className="image3" src="/Geoseek.gif" alt="" />
@@ -100,10 +96,10 @@ const Projects = () => {
                 then came up with a strategy to meet the stakeholder's expectations. 
                 We used ReactJs for the client side of the app and used NodeJS for the 
                 backend server.  The app was a way to provide a pure digital Geocache experience.
-                
-               {/* <a
-               href = "https://game-of-life-m.herokuapp.com">See deployed app
-               </a> */}
+                <br/>
+               <a
+               href = "https://github.com/mzstevens69/geoseek-fe2">See deployed app
+               </a>
                 </div>
             </Pject2>
         </Wrap>

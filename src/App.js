@@ -11,23 +11,19 @@ import Contact from './Contact';
 const Title = styled.h1 `
   margin: 5%;
   color: white;
-  font-family: 'Love Ya Like A Sister';
+  font-family: 'Oswald';
   font-size: 2.5rem;
   text-shadow: 1px 1px 2px black, 0 0 25px #00ffff, 0 0 8px #8533ff;
 `
 const SubTitle = styled.h3 `
   color: white;
-  font-family: 'Love Ya Like A Sister';
+
   margin: 2%;
   font-size: 1.6rem;
   text-shadow: 1px 1px 2px black, 0 0 25px #00ffff, 0 0 8px #8533ff;
 `
 
 function App() {
-
-  
-
-  
 
   return (
     <>
@@ -38,7 +34,10 @@ function App() {
       <a class="button" href="#contact">Contact</a>
       </div>
       <Title>Michael Stevens</Title>
-      <SubTitle>Full Stack Engineer | Lover of tech | Lifetime Learner<br/>    
+      <div>
+      <img className="selfie" src='/mikecircle.png' alt="selfie" />
+      </div>
+      <SubTitle>Full Stack Engineer | Lover of tech | Never Stop Learning<br/>    
         <br/>
         Living in the Nashville, Tennessee area<br/>
         <br/>
