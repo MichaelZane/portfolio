@@ -9,7 +9,8 @@ const Wrap = styled.div `
     margin-bottom: 2%;         
 `
 const Image = styled.img `
-    margin: 3%;
+    margin: 2%;
+    margin-bottom: 2%;
     @media screen and (max-width: 700px) {    
         height: 100%;
         width: 94%;   
@@ -22,25 +23,26 @@ const Image = styled.img `
 `
 
 const Pject = styled.div `
-    border: 1px solid white;
+    // border: 1px solid white;
+    // border-bottom: 1px solid white;
     display: flex;
     margin-top: 5%;
-    width: 80%;
+    width: 100%;
     height: 100%;
     color: white;
-    background-color:  #00004d;
-    box-shadow: 4px 4px 8px 4px rgb(0, 255, 255), 4px 6px 20px 4px rgba(0, 0, 0, 0.19);
+    // background-color:  #00004d;
+    // box-shadow: 4px 4px 8px 4px rgb(0, 255, 255), 4px 6px 20px 4px rgba(0, 0, 0, 0.19);
     flex-direction: column;
 `
 const Pject2 = styled.div `
-    border: 1px solid white;
+    // border-bottom: 1px solid white;
     display: flex;
     margin-top: 0;
-    width: 80%;
+    width: 100%;
     height: 100%;
     color: white;
-    background-color:  #00004d;
-    box-shadow: 4px 4px 8px 4px rgb(0, 255, 255), 4px 6px 20px 4px rgba(0, 0, 0, 0.19);
+    // background-color:  #00004d;
+    // box-shadow: 4px 4px 8px 4px rgb(0, 255, 255), 4px 6px 20px 4px rgba(0, 0, 0, 0.19);
     flex-direction: column;
     
 `

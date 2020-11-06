@@ -23,7 +23,7 @@ const Form = styled.form `
   height: 100%;
   color: white;
   background-color:  #00004d;
-  box-shadow: 4px 4px 8px 4px rgb(0, 255, 255), 4px 6px 20px 4px rgba(0, 0, 0, 0.19);
+  // box-shadow: 4px 4px 8px 4px rgb(0, 255, 255), 4px 6px 20px 4px rgba(0, 0, 0, 0.19);
 `
 
 
