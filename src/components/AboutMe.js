@@ -3,7 +3,7 @@ import React from 'react'
 import styled from 'styled-components'
 
 const About = styled.div `
-    width: 80%;
+    width: 100%;
     height: 100%;
     // border: 1.25px solid white;
     border-radius: 5px;
@@ -12,12 +12,16 @@ const About = styled.div `
     font-size:  1.7rem;
    
     // box-shadow: 4px 4px 8px 4px rgb(0, 255, 255), 4px 6px 20px 4px rgba(0, 0, 0, 0.19);
-    // background-color:  transparent;
+    background-color:  transparent;
     
 `
 const Wrap = styled.div `
     display: flex;
     justify-content: center;
+    margin-bottom: 5%;
+    border-bottom: 1px solid white;
+    
+   
 `
 
 const AboutMe = () => {
@@ -34,9 +38,7 @@ const AboutMe = () => {
                 computers and what you can achieve by using them.
                 If you are curious about me, I am definitely a person you should call, email or text. I'm good with in-person discussions at a coffee place, I'm buying. My background is in art and I've also had a couple construction type businesses. I love to build and make stuff. It could be a static by the book object or a creative, imaginative work that starts with the basics but spins up a wild one of a kind experience. This is me. I am looking for a developer position.
                 <br/>
-                My current skills are:
-                    JavaScript, React, Redux, Nodejs, Express, Knex, PostgreSQL, Python, HTML5, CSS3, Sass, 
-                    Less, Styled Components, Jest, Git, Github.
+                
    
                 </p>
             </About>

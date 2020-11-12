@@ -3,14 +3,14 @@ body, html {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #e6f2ff;
-  background-image: url('./assets/usa-background.jpg'); 
+  background-color: #002A56
+  /* background-image: url('./assets/usa-background.jpg'); 
   height: 100%;
   max-width: 100%;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center center ;
-  background-size: cover;
+  background-size: cover; */
   
 }
 
@@ -62,10 +62,11 @@ span {
   font-size: 1.4rem;
   text-align: left;
   
+  
 }
 
 a {
-  margin-top: 4%;
+  margin: 2%;
   color: white;
   text-decoration: none;
 }
@@ -106,10 +107,15 @@ textarea {
   background-color: darkgreen;
 }
 
-.btn-wrap {
+.nav-wrap {
   display: flex;
-  justify-content: center;
-  font-size: 1.7rem;
+  
+  width: 100%;
+  height: 50px;
+  /* font-size: 1.7rem; */
+  border-bottom: 1px solid goldenrod;
+  position: sticky;
+  top: 0;
 
 }
 
@@ -119,6 +125,37 @@ textarea {
 
 .selfie {
   width: 300px;
+  
   border-radius: 12px;
   align-items: center;
+}
+
+.logo {
+  
+  background-image: url('./assets/usa-background.jpg');
+  height: 80vh;
+  max-width: 100%;
+  /* background-attachment: fixed; */
+  background-repeat: no-repeat;
+  background-position: center center ;
+  background-size: cover; 
+
+}
+
+.port-img {
+  width: 400px;
+  height: 400px;
+  
+}
+
+.projects {
+  border-top: 1px solid white;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  width: 300px;
+  background-color: transparent;
 }
