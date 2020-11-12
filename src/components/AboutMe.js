@@ -34,10 +34,10 @@ const AboutMe = () => {
             <About>
             
                 <p>
-                I've been a fan of tech from an early age. I love 
+                {/* I've been a fan of tech from an early age. I love 
                 computers and what you can achieve by using them.
                 If you are curious about me, I am definitely a person you should call, email or text. I'm good with in-person discussions at a coffee place, I'm buying. My background is in art and I've also had a couple construction type businesses. I love to build and make stuff. It could be a static by the book object or a creative, imaginative work that starts with the basics but spins up a wild one of a kind experience. This is me. I am looking for a developer position.
-                <br/>
+                <br/> */}
                 
    
                 </p>

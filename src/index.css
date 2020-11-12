@@ -3,7 +3,7 @@ body, html {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #002A56
+  
   /* background-image: url('./assets/usa-background.jpg'); 
   height: 100%;
   max-width: 100%;
@@ -19,7 +19,7 @@ h1 {
   margin-bottom: 3%;
   color: white;
   font-family: 'Oswald', sans-serif;;
-  /* text-decoration: underline; */
+  text-decoration: underline;
   text-shadow: 1px 1px 2px black, 0 0 25px #00ffff, 0 0 8px #8533ff;
   @media screen and (max-width: 700px) {
     text-align: center;
@@ -36,7 +36,7 @@ p {
 }
 
 a {
-  width: 25%;
+  margin: 5% 0;
   text-align: center;
 }
 
@@ -66,7 +66,7 @@ span {
 }
 
 a {
-  margin: 2%;
+  margin: 2% 0;
   color: white;
   text-decoration: none;
 }
@@ -109,7 +109,8 @@ textarea {
 
 .nav-wrap {
   display: flex;
-  
+  justify-content: space-between;
+  background-color: #002A56;
   width: 100%;
   height: 50px;
   /* font-size: 1.7rem; */
@@ -133,7 +134,7 @@ textarea {
 .logo {
   
   background-image: url('./assets/usa-background.jpg');
-  height: 80vh;
+  height: 100vh;
   max-width: 100%;
   /* background-attachment: fixed; */
   background-repeat: no-repeat;
@@ -143,6 +144,7 @@ textarea {
 }
 
 .port-img {
+  margin-top: 10%;
   width: 400px;
   height: 400px;
   
@@ -153,9 +155,27 @@ textarea {
 }
 
 .menu {
+  z-index: 99;
+  font-size: 1.7rem;
   display: flex;
+  
+  padding: 5%;
   flex-direction: column;
   height: 300px;
-  width: 300px;
-  background-color: transparent;
+  width: 200px;
+  background-color: #002246;
+  
+}
+
+.skills {
+  background-color: #002A56;
+}
+
+.icons {
+  margin: 0 3%;
+  
+}
+
+.icon-wrap {
+  width: 200px;
 }

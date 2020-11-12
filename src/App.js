@@ -27,11 +27,17 @@ function App() {
           label="Show menu" 
           toggled={isOpen} 
           toggle={setOpen}
-          direction="right"
+          direction="left"
           color="white"
-
           />
+          <div className="icon-wrap" >
+            <a className="icons" href="mailto:stevensmike36@yahoo.com" alt="mail link"><i className="icon far fa-envelope fa-2x"></i></a>
+              <a className="icons" href = "https://www.linkedin.com/in/michael-stevens-dev/" alt="linked in icon"><i className="fa fa-linkedin-square fa-2x"></i></a>
+              <a className="icons" href = "https://github.com/mzstevens69" alt="github icon"><i className="fab fa-github-square fa-2x" ></i></a>
+              <a className="icons" href = "https://twitter.com/Michaelzanemike" alt="twitter icon"><i className="fab fa-twitter-square fa-2x" ></i></a>
           </div>
+        </div>
+
         {isOpen ? <Nav /> : null}
         
         
@@ -41,8 +47,8 @@ function App() {
           <a className="button" href="#contact">Contact</a> */}
           
           <div className="logo" >  
-          <img className="port-img" src='/fsdev.png' alt="logo" /> 
-        </div>  
+            <img className="port-img" src='/fsdev.png' alt="logo" /> 
+          </div>  
           
           {/* <SubTitle>   */}
             {/* <br/>
@@ -57,7 +63,7 @@ function App() {
             <a href = "https://twitter.com/Michaelzanemike" alt="twitter icon"><i className="fab fa-twitter-square fa-3x" ></i></a> */}
           {/* </SubTitle> */}
           {/* </div> */}
-          <h1>Get to know me...</h1>
+          <h1>About</h1>
           <AboutMe />
           
           <Skills />
