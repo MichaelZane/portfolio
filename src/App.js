@@ -1,7 +1,5 @@
 import React, { useState } from 'react';
-
 import { Spin as Hamburger } from 'hamburger-react'
-import styled from 'styled-components'
 import Nav from "./components/Nav"
 import './App.css';
 import AboutMe from './components/AboutMe'
@@ -40,30 +38,12 @@ function App() {
         </div>
 
         {isOpen ? <Nav isOpen={isOpen}/> : null}
-        
-        
-        
-          {/* <a className="button" href="#project">Projects</a>
-          <a className="button" href="#skill">Skills</a>
-          <a className="button" href="#contact">Contact</a> */}
+
           
           <div className="logo" >  
             <img className="port-img" src='/fsdev.png' alt="logo" /> 
           </div>  
           
-          {/* <SubTitle>   */}
-            {/* <br/>
-            Living in the Nashville, Tennessee area<br/>
-            <br/>
-            stevensmike36@yahoo.com
-            <br/>
-            <br/> */}
-            {/* <a href="mailto:stevensmike36@yahoo.com" alt="mail link"><i className="icon far fa-envelope fa-3x"></i></a>
-            <a href = "https://www.linkedin.com/in/michael-stevens-dev/" alt="linked in icon"><i className="fa fa-linkedin-square fa-3x"></i></a>
-            <a href = "https://github.com/mzstevens69" alt="github icon"><i className="fab fa-github-square fa-3x" ></i></a>
-            <a href = "https://twitter.com/Michaelzanemike" alt="twitter icon"><i className="fab fa-twitter-square fa-3x" ></i></a> */}
-          {/* </SubTitle> */}
-          {/* </div> */}
           <h1>About Me</h1>
           <AboutMe />
           
