@@ -20,7 +20,7 @@ const Skill = styled.div `
 const Skills = () => {
     return (
         <div className="skills" > 
-        <h1>Skills</h1>
+        <h1 id="skill">Skills</h1>
         
             
             <Skill>

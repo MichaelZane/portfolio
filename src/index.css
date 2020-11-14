@@ -4,23 +4,15 @@ body, html {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   
-  /* background-image: url('./assets/usa-background.jpg'); 
-  height: 100%;
-  max-width: 100%;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-position: center center ;
-  background-size: cover; */
-  
 }
 
 h1 {
-  margin-top: 5%;
+  margin-top: 2%;
   margin-bottom: 3%;
   color: white;
   font-family: 'Oswald', sans-serif;;
   text-decoration: underline;
-  text-shadow: 1px 1px 2px black, 0 0 25px #00ffff, 0 0 8px #8533ff;
+  text-shadow: 1px 1px 2px black, 0 0 25px #00ffff, 0 0 8px #002A56;
   @media screen and (max-width: 700px) {
     text-align: center;
   }
@@ -56,13 +48,20 @@ span {
   font-size: medium;
 }
 
-.description {
-  
+.description2 {
+  color: #002A56;
   margin: 0 5%;
   font-size: 1.4rem;
   text-align: left;
   
   
+}
+
+.description {
+  color: white;
+  margin: 0 5%;
+  font-size: 1.4rem;
+  text-align: left;
 }
 
 a {
@@ -103,8 +102,8 @@ textarea {
   margin: 2%;
   width: 25%;
   font-size: x-large;
-  color: whitesmoke;
-  background-color: darkgreen;
+  color: #002A56;
+  background-color: clear
 }
 
 .nav-wrap {
@@ -134,9 +133,9 @@ textarea {
 .logo {
   
   background-image: url('./assets/usa-background.jpg');
-  height: 100vh;
+  height: 70vh;
   max-width: 100%;
-  /* background-attachment: fixed; */
+  background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center center ;
   background-size: cover; 
@@ -144,9 +143,9 @@ textarea {
 }
 
 .port-img {
-  margin-top: 10%;
-  width: 400px;
-  height: 400px;
+  margin-top: 0;
+  width: 500px;
+  height: 500px;
   
 }
 
@@ -154,16 +153,11 @@ textarea {
   border-top: 1px solid white;
 }
 
-.menu {
+
+.hamburger-react {
+  margin-left: 5%;
   z-index: 99;
-  font-size: 1.7rem;
-  display: flex;
   
-  padding: 5%;
-  flex-direction: column;
-  height: 300px;
-  width: 200px;
-  background-color: #002246;
   
 }
 
@@ -177,5 +171,71 @@ textarea {
 }
 
 .icon-wrap {
+  margin-right: 5%;
   width: 200px;
+}
+
+.image-text {
+  position: absolute;
+  
+}
+#contact {
+  text-align: center;
+  height: 50px;
+}
+
+#form {
+  background-color: #002A56;
+}
+
+#bubble {
+  justify-content: center;
+  width: 120px;
+  height: 80px;
+  background:  #002A56;
+  position: relative;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+#bubble:before {
+  justify-content: center;
+  content: "";
+  position: absolute;
+  right: 100%;
+  top: 26px;
+  width: 0;
+  height: 0;
+  border-top: 13px solid transparent;
+  border-right: 26px solid  #002A56;
+  border-bottom: 13px solid transparent;
+}
+
+#bWrap {
+  padding: 10%;
+  height: 250px;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#img-h3 {
+  margin: 0;
+}
+
+#bio {
+  
+  width: 65%;
+  text-align: center;
+  margin: 0;
+  font-size: 1.1rem;
+  text-shadow: none;
+  color:#002A56; 
+}
+
+#image-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }

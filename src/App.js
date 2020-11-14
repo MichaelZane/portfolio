@@ -24,6 +24,7 @@ function App() {
       <div className="App">
       <div className="nav-wrap" > 
         <Hamburger 
+          
           label="Show menu" 
           toggled={isOpen} 
           toggle={setOpen}
@@ -38,7 +39,7 @@ function App() {
           </div>
         </div>
 
-        {isOpen ? <Nav /> : null}
+        {isOpen ? <Nav isOpen={isOpen}/> : null}
         
         
         
@@ -63,13 +64,13 @@ function App() {
             <a href = "https://twitter.com/Michaelzanemike" alt="twitter icon"><i className="fab fa-twitter-square fa-3x" ></i></a> */}
           {/* </SubTitle> */}
           {/* </div> */}
-          <h1>About</h1>
+          <h1>About Me</h1>
           <AboutMe />
           
           <Skills />
           
           <Projects  />
-          <h1 id="contact" >Contact Me</h1>
+          
           <Contact  />
           <Footer />
         

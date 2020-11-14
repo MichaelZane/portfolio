@@ -12,7 +12,7 @@ const Wrap = styled.div `
 `
 const Image = styled.img `
     margin: 2%;
-    margin-bottom: 2%;
+    margin-bottom: 6%;
     @media screen and (max-width: 700px) {    
         height: 100%;
         width: 94%;   
@@ -32,8 +32,8 @@ const Pject = styled.div `
     width: 100%;
     height: 100%;
     color: white;
-    
-    // box-shadow: 4px 4px 8px 4px rgb(0, 255, 255), 4px 6px 20px 4px rgba(0, 0, 0, 0.19);
+    background-color:  #002A56;
+
     flex-direction: column;
 `
 const Pject2 = styled.div `
@@ -43,7 +43,7 @@ const Pject2 = styled.div `
     width: 100%;
     height: 100%;
     color: white;
-    // background-color:  #00004d;
+    
     // box-shadow: 4px 4px 8px 4px rgb(0, 255, 255), 4px 6px 20px 4px rgba(0, 0, 0, 0.19);
     flex-direction: column;
     
@@ -56,7 +56,7 @@ const Projects = () => {
         <Wrap>
             <Pject2>
             
-            <div className = "description" >
+            <div className = "description2" >
                 <h4>Menu Order App</h4>
                 A react-redux app that uses firebase functions and is hosted there as well. It allows users to sign up with firebase Auth and then sign In. You can order from the menu and then checkout using stripe. 
                 <br/>
@@ -93,7 +93,7 @@ const Projects = () => {
             <Pject2>
             
 
-            <div className = "description" >
+            <div className = "description2" >
                 <h4>Geoseek</h4>
                 Geoseek was a 8 week project that I worked on with a group of 3 IOS developers,
                 and a team of 5 web developers.  We worked closely with a stakeholder, 

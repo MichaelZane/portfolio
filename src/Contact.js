@@ -6,54 +6,53 @@ const Wrap = styled.div `
     justify-content: center;
     height: 100%;
     margin-top: 2%;
-    margin-bottom: 2%;         
+    margin-bottom: 2%; 
+    background-color: #002A56;        
 `
 
 const Form = styled.form `
-  display: flex;
+  
   flex-direction: column;
-  justify-content: center;
+  
   height: 100%;
-  margin-top: 3%;
+  margin-top: 5%;
   margin-bottom: 2%;
-  border: 1px solid white;
-  
-  
   width: 80%;
   height: 100%;
   color: white;
-  background-color:  #00004d;
-  // box-shadow: 4px 4px 8px 4px rgb(0, 255, 255), 4px 6px 20px 4px rgba(0, 0, 0, 0.19);
+  background-color:  #002A56;
+
 `
 
 
 const contactMe = () => {
     return ( 
-      
-      <Wrap> 
-        
-        <Form
-            action="https://formspree.io/xknqkpgo"
-            method="POST"
-            >
-            <label>
-                <input className="nme" name="name" type="text" placeholder="Name" />
-            </label>
-            <label>
-                <input type="text" name="_replyto" placeholder="Email"/>
-            </label>
-            <label>
-                <input type="numeric" placeholder="Phone" name="phone"/>
-            </label>
-            <label>
-                <textarea name="message" placeholder="Message" />         
-            </label>
-          <label>
-          <button className = "btn" type="submit">Send</button>
-          </label>
-          
-        </Form>
-      </Wrap>
+      <div id="form">
+        <h1 id="contact" >Contact Me</h1>
+        <Wrap> 
+          <Form
+              action="https://formspree.io/xknqkpgo"
+              method="POST"
+              >
+
+              
+                  <input className="nme" name="name" type="text" placeholder="Name" />
+              
+              
+                  <input type="text" name="_replyto" placeholder="Email"/>
+              
+              
+                  <input type="numeric" placeholder="Phone" name="phone"/>
+              
+              
+                  <textarea name="message" placeholder="Message" />         
+              
+            
+            <button className = "btn" type="submit">Send</button>
+            
+          </Form>
+        </Wrap>
+      </div>
      );
 }
  
