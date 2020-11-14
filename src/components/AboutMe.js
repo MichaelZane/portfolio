@@ -71,7 +71,7 @@ const AboutMe = () => {
                 <div id="image-wrap" >                     
                     <Image src="/mikecircle.png" alt="profile-pic"/>
                         <h3 id="img-h3">Me</h3>
-                        <p id="bio">Solution-driven full stack developer adept at contributing to a highly collaborative work environment, finding solutions, and determining customer satisfaction. Proven experience developing consumer-focused websites using HTML, CSS, JavaScript, React, and Redux. </p>
+                        <p id="bio">Solution-driven full stack developer adept at contributing to a highly collaborative work environment, finding solutions, and determining customer satisfaction. Experience developing consumer-focused websites using HTML, CSS, JavaScript, React, and Redux. Nashville, Tn area.</p>
                     
                 </div>                    
                 </About>

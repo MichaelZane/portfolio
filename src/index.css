@@ -131,9 +131,9 @@ textarea {
 }
 
 .logo {
-  
+
   background-image: url('./assets/usa-background.jpg');
-  height: 70vh;
+  height: 95vh;
   max-width: 100%;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -143,9 +143,11 @@ textarea {
 }
 
 .port-img {
-  margin-top: 0;
+  
+  margin-top: 15%;
   width: 500px;
   height: 500px;
+  justify-content: center;
   
 }
 

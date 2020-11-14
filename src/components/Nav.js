@@ -12,13 +12,13 @@ const Ul = styled.ul`
   flex-flow: column nowrap;
   background-color: #002A56;
   position: fixed;
-  transform: ${({ isOpen }) => isOpen ? 'translateX(0)' : 'translateX(100%)'};
+  transform: ${({ isOpen }) => isOpen ? 'translateY(0)' : 'translateY(100%)'};
   top: 0;
   right: 100;
-  height: 40vh;
+  height: 30vh;
   width: 200px;
   padding-top: 3.5rem;
-  transition: transform 0.3s ease-in-out;
+  transition: transform 0.7s ease-in-out;
   li {
     color: #fff;
     
