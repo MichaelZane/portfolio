@@ -86,7 +86,7 @@ const Projects = () => {
                href = "https://game-of-life-m.herokuapp.com">See deployed app
                </a>
                 </div>
-            <Image loading='lazy' src="/pro1a.gif" alt="project game of life" />
+            <Image loading='lazy' src="/gol.gif" alt="project game of life" />
             </Pject>
         </Wrap>
         <Wrap>
