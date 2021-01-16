@@ -241,3 +241,11 @@ textarea {
   flex-direction: column;
   align-items: center;
 }
+
+@media screen and (max-width: 501px){
+  .port-img {
+    width: 400px;
+    height: 400px;
+  }
+   
+}
