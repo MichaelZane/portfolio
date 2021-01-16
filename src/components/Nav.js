@@ -8,7 +8,7 @@ const Ul = styled.ul`
   li {
     padding: 18px 10px;
   }
-  margin-top: 8%;
+  margin-top: 15%;
   flex-flow: column nowrap;
   background-color: #002A56;
   position: fixed;
