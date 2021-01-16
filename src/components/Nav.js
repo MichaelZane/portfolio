@@ -23,6 +23,15 @@ const Ul = styled.ul`
     color: #fff;
     
   }
+  @media (min-width: 720px) {
+    margin: 5% 0;
+  }
+  @media (min-width: 1020px) {
+    margin: 4% 0;
+  }
+  @media (min-width: 1275px) {
+    margin: 3% 0;
+  }
 `;
 
 const Nav = ({ isOpen }) => {
