@@ -72,21 +72,15 @@ const Projects = () => {
             <Pject>
                 
                 <div className = "description" >
-                <h4>Game of Life</h4>
-                The game of life, also known as life, is a zero player 
-                game, which means it is determined by it's state, needing 
-                no further input.  You initiate the game by using the 
-                randomly generated pattern or by creating your own on the 
-                blank grid then observing it's evolution of generations.  
-                It is an example of Turing complete thus allowing to 
-                simulate a universal constructor and any Turing machine.<br/>
-                It was created using JavaScript, CSS, and HTML<br/>
+                <h4>Users Poll</h4>
+                This app is a feedback form created with  that has users provide feedback for The Social Game Poker Club. The form data is then dropped in a PostgreSQL database and fires an email.<br/>
+                It was created using python, flask, HTML5, and CSS and Mailtrap<br/>
                 <br/>
                <a
-               href = "https://game-of-life-m.herokuapp.com">See deployed app
+               href = "https://social-game-poker.herokuapp.com">See deployed app
                </a>
                 </div>
-            <Image loading='lazy' src="/gol.gif" alt="project game of life" />
+            <Image loading='lazy' src="/social.png" alt="project game of life" />
             </Pject>
         </Wrap>
         <Wrap>
