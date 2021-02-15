@@ -1,5 +1,5 @@
-import React from 'react'
-import styled from 'styled-components';
+import React from "react";
+import styled from "styled-components";
 
 const Ul = styled.ul`
   list-style: none;
@@ -10,9 +10,9 @@ const Ul = styled.ul`
   }
   margin-top: 17%;
   flex-flow: column nowrap;
-  background-color: #002A56;
+  background-color: #002a56;
   position: fixed;
-  transform: ${({ isOpen }) => isOpen ? 'translateY(0)' : 'translateY(100%)'};
+  transform: ${({ isOpen }) => (isOpen ? "translateY(0)" : "translateY(100%)")};
   top: 0;
   right: 100;
   height: 30vh;
@@ -21,7 +21,6 @@ const Ul = styled.ul`
   transition: transform 0.7s ease-in-out;
   li {
     color: #fff;
-    
   }
 
   @media (min-width: 500px) {
@@ -40,16 +39,20 @@ const Ul = styled.ul`
 
 const Nav = ({ isOpen }) => {
   return (
-    <div >
-    <Ul isOpen={isOpen}>
-      
-      <li><a href="#skill">Skills</a></li>
-      <li><a href="#project">Projects</a></li>
-      <li><a href="#contact">Contact Me</a></li>
-    </Ul>
+    <div>
+      <Ul isOpen={isOpen}>
+        <li>
+          <a href="#skill" >Skills</a>
+        </li>
+        <li>
+          <a href="#project">Projects</a>
+        </li>
+        <li>
+          <a href="#contact">Contact Me</a>
+        </li>
+      </Ul>
     </div>
-  )
-}
+  );
+};
 
-export default Nav
-
+export default Nav;
