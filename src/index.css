@@ -181,6 +181,12 @@ textarea {
   position: absolute;
   
 }
+
+.back-to-top {
+  color: #002A56;
+
+}
+
 #contact {
   text-align: center;
   height: 50px;

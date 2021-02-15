@@ -13,7 +13,7 @@ function App() {
 
   return (
     <>
-      <div className="App">
+      <div className="App" id="top">
         <div className="nav-wrap">
           <Hamburger
             label="Show menu"

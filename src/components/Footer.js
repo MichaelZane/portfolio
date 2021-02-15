@@ -22,6 +22,7 @@ const footer = () => {
   return (
     <div>
       <Wrap>
+        <a href="#top" className="back-to-top" >back to top</a>
         <Footer>
           <a href="mailto:stevensmike36@yahoo.com" alt="mail link">
             <i className="icon far fa-envelope fa-3x"></i>
