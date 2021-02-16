@@ -23,7 +23,7 @@ const Ul = styled.ul`
     color: #fff;
   }
 
-  @media (min-width: 500px) {
+  @media (min-width: 300px) {
     margin: 7% 0;
   }
   @media (min-width: 720px) {
