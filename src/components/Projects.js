@@ -28,7 +28,6 @@ const Pject = styled.div`
   height: 100%;
   color: white;
   background-color: #002a56;
-
   flex-direction: column;
 `;
 const Pject2 = styled.div`
@@ -55,7 +54,7 @@ const Projects = () => {
             In. You can order from the menu and then checkout using stripe.
             <br />
             <a href="https://commerce-app-ec693.firebaseapp.com/">
-              See deployed app
+              <h4 id="two" >See deployed app</h4>
             </a>
           </div>
           <Image
@@ -79,7 +78,7 @@ const Projects = () => {
             <br />
             <br />
             <a href="https://social-game-poker.herokuapp.com">
-              See deployed app
+            <h4>See deployed app</h4>
             </a>
           </div>
           <Image loading="lazy" src="/social.png" alt="project game of life" />
@@ -98,7 +97,7 @@ const Projects = () => {
             a way to provide a pure digital Geocache experience.
             <br />
             <a href="https://github.com/mzstevens69/geoseek-fe2">
-              See deployed app
+            <h4 id="two" >See deployed app</h4>
             </a>
           </div>
           <Image loading="lazy" className="image3" src="/Geoseek.gif" alt="" />
