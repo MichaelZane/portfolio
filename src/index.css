@@ -63,10 +63,6 @@ span {
   text-align: left;
 }
 
-.hamburger-react {
-  position: absolute;
-}
-
 a {
   margin: 2% 0;
   color: white;
@@ -160,8 +156,9 @@ textarea {
 
 
 .hamburger-react {
-  margin-left: 5%;
-  z-index: 99;
+  margin-left: 2%;
+  z-index: -1;
+  position: absolute;
   
   
 }
