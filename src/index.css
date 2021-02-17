@@ -111,7 +111,7 @@ textarea {
   background-color: #002A56;
   width: 100%;
   height: 50px;
-  /* font-size: 1.7rem; */
+  z-index: 9;
   border-bottom: 1px solid goldenrod;
   position: sticky;
   top: 0;
@@ -157,7 +157,7 @@ textarea {
 
 .hamburger-react {
   margin-left: 2%;
-  z-index: -1;
+  z-index: 99;
   position: absolute;
   
   

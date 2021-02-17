@@ -8,6 +8,7 @@ const Ul = styled.ul`
   li {
     padding: 18px 10px;
   }
+  z-index: 8;
   margin-top: 0;
   flex-flow: column nowrap;
   background-color: #002a56;
@@ -25,6 +26,7 @@ const Ul = styled.ul`
 
   @media (min-width: 300px) {
     margin: 7% 0;
+
   }
   @media (min-width: 720px) {
     margin: 5% 0;
