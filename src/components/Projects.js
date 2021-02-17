@@ -96,7 +96,7 @@ const Projects = () => {
             side of the app and used NodeJS for the backend server. The app was
             a way to provide a pure digital Geocache experience.
             <br />
-            <a href="https://github.com/mzstevens69/geoseek-fe2">
+            <a href="https://geoseek-fe.herokuapp.com">
             <h4 id="two" >See deployed app</h4>
             </a>
           </div>
