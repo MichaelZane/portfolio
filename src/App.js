@@ -39,7 +39,7 @@ function App() {
             </a>
             <a
               className="icons"
-              href="https://github.com/mzstevens69"
+              href="https://github.com/MichaelZane"
               alt="github icon"
             >
               <i className="fab fa-github-square fa-2x"></i>
