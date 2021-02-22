@@ -33,7 +33,7 @@ const footer = () => {
           >
             <i className="fa fa-linkedin-square fa-3x"></i>
           </a>
-          <a href="https://github.com/mzstevens69" alt="github icon">
+          <a href="https://github.com/MichaelZane" alt="github icon">
             <i className="fab fa-github-square fa-3x"></i>
           </a>
           <a href="https://twitter.com/Michaelzanemike" alt="twitter icon">
