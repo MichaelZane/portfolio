@@ -22,10 +22,12 @@ const Form = styled.form`
   background-color: #002a56;
 `;
 
+
+
 const contactMe = () => {
   return (
     <div id="form">
-      <h1 id="contact">Contact Me</h1>
+      <h1>Contact Me</h1>
       <Wrap>
         <Form action="https://formspree.io/xknqkpgo" method="POST">
           <input className="nme" name="name" type="text" placeholder="Name" />

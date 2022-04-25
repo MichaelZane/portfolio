@@ -1,10 +1,27 @@
 import React from "react";
+import { rubberBand, pulse } from 'react-animations';
+import styled, { keyframes } from 'styled-components';
 
-import styled from "styled-components";
+const bounceAnimation = keyframes`${rubberBand}`;
+
+//const wobbleAnimation = keyframes`${wobble}`;
+
+const pulseAnimation = keyframes`${pulse}`;
 
 const Image = styled.img`
   width: 300px;
   height: 300px;
+  &:hover {
+    animation: 1s ${pulseAnimation};
+    
+`;
+
+
+
+const Icon = styled.div`
+&:hover {
+  animation: 1s ${pulseAnimation};
+}
 `;
 
 const Wrap = styled.div`
@@ -22,60 +39,74 @@ const About = styled.div`
   color: white;
   text-shadow: 1px 1px 2px black, 0 0 25px #00ffff, 0 0 8px #8533ff;
   font-size: 1.7rem;
+  
 `;
+
+
+
 const Text = styled.p`
   margin: 0;
   text-align: center;
   font-size: ;
+  &:hover {
+    animation: 3s ${bounceAnimation};
+  }
 `;
 
 const AboutMe = () => {
   return (
-    <>
-      <Wrap>
-        <About>
-          <div id="bWrap">
-            <i id="ikon" className="fas fa-power-off fa-3x"></i>
-            <Text>Reliable</Text>
-            <p id="bio">
-              Showing Up On Time, Doing What I Say, Delivering On Deadlines.{" "}
-            </p>
-          </div>
-          <div id="bWrap">
-            <i id="ikon" className="fas fa-upload fa-3x"></i>
-            <Text>Self-Starter</Text>
-            <p id="bio">
-              Taking Initiative, Hugely Motivated, Passion To Succeed.{" "}
-            </p>
-          </div>
-          <div id="bWrap">
-            <i id="ikon" className="far fa-save fa-3x"></i>
-            <Text>Results Driven</Text>
-            <p id="bio">
-              Meeting Challenges Head-On, Taking Accountability, Passion For
-              Excellence.{" "}
-            </p>
-          </div>
-          <div id="bWrap">
-            <i id="ikon" className="fas fa-at fa-3x"></i>
-            <Text>Persistent</Text>
-            <p id="bio">Goal Driven, Deeply Focused, Confidence To Fail. </p>
-          </div>
+    <Wrap>
+      <About>
+        <div id="bWrap">
+          <Icon>
+          <i id="ikon" className="fas fa-power-off fa-3x"></i>
+          </Icon>
+          <Text>Reliable</Text>
+          <p id="bio">
+            Consistently Showing Up On Time, Doing What I Say, Delivering On Deadlines.{" "}
+          </p>
+        </div>
+        <div id="bWrap">
+          <Icon>
+          <i id="ikon" className="fas fa-upload fa-3x"></i>
+          </Icon>
+          <Text>Self-Starter</Text>
+          <p id="bio">
+            Taking Initiative, Hugely Motivated, Passion To Succeed.{" "}
+          </p>
+        </div>
+        <div id="bWrap">
+          <Icon>
+          <i id="ikon" className="far fa-save fa-3x"></i>
+          </Icon>
+          <Text>Results Driven</Text>
+          <p id="bio">
+            Meeting Challenges Head-On, Taking Accountability, Passion For
+            Excellence.{" "}
+          </p>
+        </div>
+        <div id="bWrap">
+          <Icon>
+          <i id="ikon" className="fas fa-at fa-3x"></i>
+          </Icon>
+          <Text>Persistent</Text>
+          <p id="bio">Goal Driven, Deeply Focused, Confidence To Fail. </p>
+        </div>
 
-          <div id="image-wrap">
-            <Image src="/mikecircle.png" alt="profile-pic" />
-            <h3 id="img-h3">Me</h3>
-            <p id="bio">
-              Solution-driven full stack developer adept at contributing to a
-              highly collaborative work environment, finding solutions, and
-              determining customer satisfaction. Experience developing
-              consumer-focused websites using HTML, CSS, JavaScript, React, and
-              Redux. Nashville, Tn area.
-            </p>
-          </div>
-        </About>
-      </Wrap>
-    </>
+        <div id="image-wrap">
+          
+          <Image src="/mikecircle.png" alt="profile-pic" />
+          <h3 id="img-h3">Me</h3>
+          <p id="bio">
+            Solution-driven full stack developer adept at contributing to a
+            highly collaborative work environment, finding solutions, and
+            determining customer satisfaction. Experience developing
+            consumer-focused websites using HTML, CSS, JavaScript, React, and
+            Redux. Nashville, Tn area.
+          </p>
+        </div>
+      </About>
+    </Wrap>
   );
 };
 

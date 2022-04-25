@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import { pulse } from 'react-animations';
 
 const Wrap = styled.div`
   display: flex;
@@ -19,6 +20,21 @@ const Image = styled.img`
     height: 100%;
     width: 94%;
   }
+`;
+
+const Text = styled.h1`
+  margin-top: 2%;
+  margin-bottom: 3%;
+  color: azure;
+  font-family: 'Oswald', sans-serif;;
+  text-decoration: underline;
+  text-shadow: 1px 1px 2px black, 0 0 25px #00ffff, 0 0 8px #002A56;
+  @media screen and (max-width: 700px) {
+    text-align: center;
+  }
+  &:hover {
+    animation: 2s ${pulse};
+    }
 `;
 
 const Pject = styled.div`
@@ -44,7 +60,7 @@ const Pject2 = styled.div`
 const Projects = () => {
   return (
     <div className="projects">
-      <h1 id="project">Projects</h1>
+      <Text>Projects</Text>
       <Wrap>
         <Pject2>
           <div className="description2">
@@ -102,6 +118,22 @@ const Projects = () => {
           </div>
           <Image loading="lazy" className="image3" src="/Geoseek.gif" alt="" />
         </Pject2>
+      </Wrap>
+      <Wrap>
+        <Pject>
+          <div className="description">
+            <h4>Order Ready</h4>
+            This app was designed to for a fast food restaurant that only has a order window and no drive thru. The order ticket # ties it to the customer's order and when the order is complete you can hit the button to send a text message telling them it's ready for pick up.
+            <br />
+            It was created using JavaScript, ReactJS, NodeJS, Express, PostgreSQL, Twillio.
+            <br />
+            <br />
+            <a href="https://order-ready.netlify.app">
+            <h4>See deployed app</h4>
+            </a>
+          </div>
+          <Image loading="lazy" src="/social.png" alt="project game of life" />
+        </Pject>
       </Wrap>
     </div>
   );

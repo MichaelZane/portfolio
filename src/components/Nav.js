@@ -39,20 +39,25 @@ const Ul = styled.ul`
   }
 `;
 
-const Nav = ({ isOpen }) => {
 
+
+const Nav = ({ setOpen, isOpen }) => {
+  console.log(isOpen);
+  const clickHandeler = () => {
+    setOpen(false);
+  }
   
   return (
     <div>
       <Ul isOpen={isOpen}>
         <li>
-          <a href="#skill" >Skills</a>
+          <a onClick={() => clickHandeler()} href="#skill" >Skills</a>
         </li>
         <li>
-          <a href="#project">Projects</a>
+          <a onClick={() => clickHandeler()} href="#project">Projects</a>
         </li>
         <li>
-          <a href="#contact">Contact Me</a>
+          <a onClick={() => clickHandeler()} href="#contact">Contact Me</a>
         </li>
       </Ul>
     </div>

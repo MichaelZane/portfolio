@@ -1,12 +1,15 @@
+@font-face {
+  font-family: matrixFont;
+  src: url(./matrixFont.ttf);
+}
+
 .App {
   font-family: 'Oswald', sans-serif;
   display: flex;
   flex-direction: column;
   text-align: center;
   justify-content: center;
-  align-content: center;
-  
-  
+  align-content: center;  
 }
 
 
