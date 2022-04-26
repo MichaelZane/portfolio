@@ -1,10 +1,7 @@
 import React from "react";
-import { rubberBand, pulse } from 'react-animations';
+import { pulse } from 'react-animations';
 import styled, { keyframes } from 'styled-components';
 
-const bounceAnimation = keyframes`${rubberBand}`;
-
-//const wobbleAnimation = keyframes`${wobble}`;
 
 const pulseAnimation = keyframes`${pulse}`;
 
@@ -49,7 +46,7 @@ const Text = styled.p`
   text-align: center;
   font-size: ;
   &:hover {
-    animation: 3s ${bounceAnimation};
+    animation: 3s ${pulseAnimation};
   }
 `;
 

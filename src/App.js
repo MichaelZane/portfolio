@@ -7,7 +7,7 @@ import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Footer from "./components/Footer";
 import Contact from "./Contact";
-import {rubberBand, zoomInDown} from 'react-animations';
+import {pulse, zoomInDown} from 'react-animations';
 import styled, { keyframes } from "styled-components";
 
 
@@ -15,7 +15,7 @@ import styled, { keyframes } from "styled-components";
 function App() {
   const [isOpen, setOpen] = useState(false);
 
-  const rubberBandAnimation = keyframes`${rubberBand}`;
+  const pulseAnimation = keyframes`${pulse}`;
   const zoomInDownAnimation = keyframes`${zoomInDown}`;
 
   const Text = styled.h1`
@@ -29,7 +29,7 @@ function App() {
       text-align: center;
     }
     &:hover {
-    animation: 2s ${rubberBandAnimation};
+    animation: 2s ${pulseAnimation};
     }
   `;
 
