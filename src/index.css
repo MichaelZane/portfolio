@@ -9,10 +9,6 @@ body, html {
 h1 {
   color: white;
 }
-h1 :hover {
-  animation-name: pulse;
-  animation-duration: 3s;
-}
 
 h4 {
   text-decoration: underline;
@@ -36,7 +32,11 @@ a {
 i {
   
   padding: 5px 15px;
-
+  
+}
+.fab fa-html5 fa-7x{
+  animation-name: pulse;
+  animation-duration: 3s;
 }
 
 span {

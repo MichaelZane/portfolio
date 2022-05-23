@@ -1,5 +1,6 @@
 import React from "react";
-import styled from "styled-components";
+import styled from 'styled-components';
+
 
 const Skill = styled.div`
   margin: 5% 0;
