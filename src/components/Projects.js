@@ -132,7 +132,7 @@ const Projects = () => {
             <h4>See deployed app</h4>
             </a>
           </div>
-          <Image loading="lazy" src="/social.png" alt="project game of life" />
+          <Image loading="lazy" src="/OrderReady.png" alt="project game of life" />
         </Pject>
       </Wrap>
     </div>
