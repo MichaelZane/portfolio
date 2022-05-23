@@ -59,7 +59,7 @@ const Pject2 = styled.div`
 
 const Projects = () => {
   return (
-    <div className="projects">
+    <div id="projects">
       <Text>Projects</Text>
       <Wrap>
         <Pject2>
