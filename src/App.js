@@ -35,6 +35,7 @@ function App() {
   `;
 
   const Img = styled.div`
+
     animation: 3s ${zoomInDownAnimation};
   `
 
@@ -58,7 +59,7 @@ function App() {
           </a>
           <a
             className="icons"
-            href="https://www.linkedin.com/in/michael-stevens-dev/"
+            href="https://www.linkedin.com/in/zanedev/"
             alt="linked in icon"
           >
             <i className="fa fa-linkedin-square fa-2x"></i>
@@ -85,7 +86,7 @@ function App() {
         
         <div className="logo">
           <Img >
-            <img src="/fsdev.png" alt="logo" />
+            <img className="sd" src="/sd-zane.png" alt="logo" />
           </Img>
         </div>
       

@@ -28,7 +28,7 @@ const footer = () => {
             <i className="icon far fa-envelope fa-3x"></i>
           </a>
           <a
-            href="https://www.linkedin.com/in/michael-stevens-dev/"
+            href="https://www.linkedin.com/in/zanedev/"
             alt="linked in icon"
           >
             <i className="fa fa-linkedin-square fa-3x"></i>
@@ -40,7 +40,7 @@ const footer = () => {
             <i className="fab fa-twitter-square fa-3x"></i>
           </a>
           <br />
-          <span>Michael Stevens copyright 2020</span>
+          <span>Zane Stevens copyright 2020</span>
         </Footer>
       </Wrap>
     </div>
