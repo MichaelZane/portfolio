@@ -37,7 +37,7 @@ const Text = styled.h1`
     }
 `;
 
-const Pject = styled.div`
+const Project = styled.div`
   display: flex;
   margin-top: 5%;
   width: 100%;
@@ -46,7 +46,7 @@ const Pject = styled.div`
   background-color: #002a56;
   flex-direction: column;
 `;
-const Pject2 = styled.div`
+const Project2 = styled.div`
   display: flex;
   margin-top: 0;
   width: 100%;
@@ -62,7 +62,7 @@ const Projects = () => {
     <div id="projects">
       <Text>Projects</Text>
       <Wrap>
-        <Pject2>
+        <Project2>
           <div className="description2">
             <h4>Menu Order App</h4>
             A react-redux app that uses firebase functions and is hosted there
@@ -79,11 +79,11 @@ const Projects = () => {
             src="/menu-app.gif"
             alt="menu-order-app"
           />
-        </Pject2>
+        </Project2>
       </Wrap>
 
       <Wrap>
-        <Pject>
+        <Project>
           <div className="description">
             <h4>Users Poll</h4>
             This app is a feedback form created with that has users provide
@@ -93,15 +93,15 @@ const Projects = () => {
             It was created using python, flask, HTML5, and CSS and Mailtrap
             <br />
             <br />
-            <a href="https://social-game-poker.herokuapp.com">
+            {/* <a href="https://social-game-poker.herokuapp.com">
             <h4>See deployed app</h4>
-            </a>
+            </a> */}
           </div>
           <Image loading="lazy" src="/social.png" alt="project game of life" />
-        </Pject>
+        </Project>
       </Wrap>
       <Wrap>
-        <Pject2>
+        <Project2>
           <div className="description2">
             <h4>Geoseek</h4>
             Geoseek was a 8 week project that I worked on with a group of 3 IOS
@@ -112,15 +112,15 @@ const Projects = () => {
             side of the app and used NodeJS for the backend server. The app was
             a way to provide a pure digital Geocache experience.
             <br />
-            <a href="https://geoseek-fe.herokuapp.com">
+            {/* <a href="https://geoseek-fe.herokuapp.com">
             <h4 id="two" >See deployed app</h4>
-            </a>
+            </a> */}
           </div>
           <Image loading="lazy" className="image3" src="/Geoseek.gif" alt="" />
-        </Pject2>
+        </Project2>
       </Wrap>
       <Wrap>
-        <Pject>
+        <Project>
           <div className="description">
             <h4>Order Ready</h4>
             This app was designed to for a fast food restaurant that only has a order window and no drive thru. The order ticket # ties it to the customer's order and when the order is complete you can hit the button to send a text message telling them it's ready for pick up.
@@ -128,12 +128,12 @@ const Projects = () => {
             It was created using JavaScript, ReactJS, NodeJS, Express, PostgreSQL, Twillio.
             <br />
             <br />
-            <a href="https://order-ready.netlify.app">
+            {/* <a href="https://order-ready.netlify.app">
             <h4>See deployed app</h4>
-            </a>
+            </a> */}
           </div>
-          <Image loading="lazy" src="/OrderReady.png" alt="project game of life" />
-        </Pject>
+          <Image loading="lazy" src="/OrderReady.png" alt="Order Ready" />
+        </Project>
       </Wrap>
     </div>
   );
