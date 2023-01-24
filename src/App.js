@@ -7,7 +7,7 @@ import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Footer from "./components/Footer";
 import Contact from "./Contact";
-import { merge, pulse, zoomInDown, zoomOutDown } from 'react-animations';
+import { pulse, zoomInDown } from 'react-animations';
 import styled, { keyframes } from "styled-components";
 
 
@@ -18,7 +18,7 @@ function App() {
   const [showZane, setShowZane] = useState(true)
   const pulseAnimation = keyframes`${pulse}`;
   const zoomInDownAnimation = keyframes`${zoomInDown}`;
-  const zoomOutDownAnimation = keyframes`${zoomOutDown}`
+
 
   const Text = styled.h1`
     margin-top: 2%;
