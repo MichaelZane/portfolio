@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import { Spin as Hamburger } from "hamburger-react";
 import Nav from "./components/Nav";
 import "./App.css";
@@ -7,7 +7,7 @@ import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Footer from "./components/Footer";
 import Contact from "./Contact";
-import { pulse, zoomInDown } from 'react-animations';
+import { pulse } from 'react-animations';
 import styled, { keyframes } from "styled-components";
 
 
@@ -15,9 +15,9 @@ import styled, { keyframes } from "styled-components";
 
 function App() {
   const [isOpen, setOpen] = useState(false);
-  const [showZane, setShowZane] = useState(true)
+  // const [showZane, setShowZane] = useState(true)
   const pulseAnimation = keyframes`${pulse}`;
-  const zoomInDownAnimation = keyframes`${zoomInDown}`;
+  // const zoomInDownAnimation = keyframes`${zoomInDown}`;
 
 
   const Text = styled.h1`
@@ -35,15 +35,15 @@ function App() {
     }
   `;
 
-  const Img = styled.div`
+  // const Img = styled.div`
 
-    animation: 3s ${zoomInDownAnimation};
-  `
-  useEffect(() => {
-  setTimeout(() => {
-    setShowZane(false)
-  }, [5000])
-  }, [])
+  //   animation: 3s ${zoomInDownAnimation};
+  // `
+  // useEffect(() => {
+  // setTimeout(() => {
+  //   setShowZane(false)
+  // }, [5000])
+  // }, [])
   return (
     <div className="App" id="top">
       <div className="nav-wrap">
@@ -89,14 +89,14 @@ function App() {
       {isOpen ? <Nav isOpen={isOpen} setOpen={setOpen} /> : null}
       
         
-        <div className="logo">
+        {/* <div className="logo">
         {showZane ? 
           <Img >
             <img className="sd" src="/sd-zane.png" alt="logo" />
           </Img>
           : <div></div>
         }
-        </div>
+        </div> */}
         
 
       <Text>About Me</Text>
