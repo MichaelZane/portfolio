@@ -1,9 +1,11 @@
 import React from "react";
-import { pulse } from 'react-animations';
+import { pulse, slideInLeft, slideInRight } from 'react-animations';
 import styled, { keyframes } from 'styled-components';
 
 
 const pulseAnimation = keyframes`${pulse}`;
+const slideRight = keyframes`${slideInRight}`;
+const slideLeft = keyframes`${slideInLeft}`
 
 const Image = styled.img`
   width: 300px;
@@ -13,9 +15,34 @@ const Image = styled.img`
     
 `;
 
+const Lwrap = styled.div`
+padding: 10%;
+height: 250px;
+width: 250px;
+display: flex;
+flex-direction: column;
+align-items: center;
+animation: 1s ${slideLeft};
+&onScroll {
+  animation: 1s ${pulseAnimation};
+}
+`
+const Rwrap = styled.div`
+padding: 10%;
+height: 250px;
+width: 250px;
+display: flex;
+flex-direction: column;
+align-items: center;
+animation: 1s ${slideRight};
+&onScroll {
+  animation: 1s ${pulseAnimation};
+}
 
+`
 
 const Icon = styled.div`
+
 &:hover {
   animation: 1s ${pulseAnimation};
 }
@@ -39,8 +66,6 @@ const About = styled.div`
   
 `;
 
-
-
 const Text = styled.p`
   margin: 0;
   text-align: center;
@@ -54,7 +79,7 @@ const AboutMe = () => {
   return (
     <Wrap>
       <About>
-        <div id="bWrap">
+        <Lwrap>
           <Icon>
           <i id="ikon" className="fas fa-power-off fa-3x"></i>
           </Icon>
@@ -62,8 +87,8 @@ const AboutMe = () => {
           <p id="bio">
             Consistently Showing Up On Time, Doing What I Say, Delivering On Deadlines.{" "}
           </p>
-        </div>
-        <div id="bWrap">
+        </Lwrap>   
+        <Rwrap>
           <Icon>
           <i id="ikon" className="fas fa-upload fa-3x"></i>
           </Icon>
@@ -71,8 +96,8 @@ const AboutMe = () => {
           <p id="bio">
             Taking Initiative, Hugely Motivated, Passion To Succeed.{" "}
           </p>
-        </div>
-        <div id="bWrap">
+        </Rwrap>
+        <Lwrap>
           <Icon>
           <i id="ikon" className="far fa-save fa-3x"></i>
           </Icon>
@@ -81,17 +106,15 @@ const AboutMe = () => {
             Meeting Challenges Head-On, Taking Accountability, Passion For
             Excellence.{" "}
           </p>
-        </div>
-        <div id="bWrap">
+        </Lwrap>
+        <Rwrap>
           <Icon>
           <i id="ikon" className="fas fa-at fa-3x"></i>
           </Icon>
           <Text>Persistent</Text>
           <p id="bio">Goal Driven, Deeply Focused, Confidence To Fail. </p>
-        </div>
-
-        <div id="image-wrap">
-          
+        </Rwrap>
+        <div id="image-wrap">         
           <Image src="/mikecircle.png" alt="profile-pic" />
           <h3 id="img-h3">Me</h3>
           <p id="bio">

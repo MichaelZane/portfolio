@@ -7,20 +7,19 @@ import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Footer from "./components/Footer";
 import Contact from "./Contact";
-import { pulse } from 'react-animations';
+import { pulse, flip } from 'react-animations';
 import styled, { keyframes } from "styled-components";
-
-
-
+import TypeWriterEffect from 'react-typewriter-effect';
 
 function App() {
   const [isOpen, setOpen] = useState(false);
   // const [showZane, setShowZane] = useState(true)
   const pulseAnimation = keyframes`${pulse}`;
-  // const zoomInDownAnimation = keyframes`${zoomInDown}`;
+  const flipAnimation = keyframes`${flip}`;
 
 
   const Text = styled.h1`
+    animation: 1s ${flipAnimation};
     margin-top: 2%;
     margin-bottom: 3%;
     color: azure;
@@ -35,16 +34,8 @@ function App() {
     }
   `;
 
-  // const Img = styled.div`
-
-  //   animation: 3s ${zoomInDownAnimation};
-  // `
-  // useEffect(() => {
-  // setTimeout(() => {
-  //   setShowZane(false)
-  // }, [5000])
-  // }, [])
   return (
+
     <div className="App" id="top">
       <div className="nav-wrap">
         <Hamburger
@@ -87,18 +78,20 @@ function App() {
       </div>
 
       {isOpen ? <Nav isOpen={isOpen} setOpen={setOpen} /> : null}
-      
-        
-        {/* <div className="logo">
-        {showZane ? 
-          <Img >
-            <img className="sd" src="/sd-zane.png" alt="logo" />
-          </Img>
-          : <div></div>
-        }
-        </div> */}
-        
 
+          <div className="logo" >
+          <TypeWriterEffect
+            textStyle={{ fontFamily: 'VIDEOPHREAK', textAlign: 'center', marginTop: '33%', fontSize: '3em' }}
+            multiTextDelay={1500}
+            hideCursorAfterText={true}
+            cursorColor="white"
+            multiText={["Full Stack Software Developer", "Zane Stevens", "Scroll Down To See More"]}
+            typeSpeed={75}
+            eraseSpeed={100}
+          />
+          
+          </div>
+    
       <Text>About Me</Text>
 
       <AboutMe  />

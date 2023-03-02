@@ -4,6 +4,8 @@ import "./index.css";
 import "./App.css";
 import App from "./App";
 import {HashRouter as Router} from "react-router-dom";
+import './fonts/VIDEOPHREAK.ttf';
+
 
 ReactDOM.render(
   <Router>
